@@ -3,22 +3,7 @@ import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 
 import { environment } from '../../environments/environment';
-
-interface ICepResponse {
-  cep: string;
-  state: string;
-  city: string;
-  neighborhood: string;
-  street: string;
-  service: string;
-  location: {
-    type: string;
-    coordinates: {
-      longitude: string;
-      latitude: string;
-    };
-  };
-}
+import { ICepResponse } from '../models/ICepResponse';
 
 @Injectable({
   providedIn: 'root',
