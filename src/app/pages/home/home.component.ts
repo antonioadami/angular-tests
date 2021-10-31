@@ -12,9 +12,11 @@ import { CepService } from 'src/app/services/cep.service';
 export class HomeComponent {
   @ViewChild(MatTable) table: MatTable<ICepResponse>;
 
-  title = 'Busca por CEP';
+  title = 'Insira seu CEP';
 
   cep: string;
+
+  erro: string | null = null;
 
   addresses: ICepResponse[] = [];
 
@@ -31,9 +33,15 @@ export class HomeComponent {
   constructor(private cepService: CepService) {}
 
   buscar(): void {
-    this.cepService.getAddressByCep(this.cep).subscribe(ans => {
-      this.addresses.push(ans);
-      this.table.renderRows();
-    });
+    this.cepService.getAddressByCep(this.cep).subscribe(
+      ans => {
+        this.erro = null;
+        this.addresses.push(ans);
+        this.table.renderRows();
+      },
+      err => {
+        this.erro = err.error.message;
+      },
+    );
   }
 }

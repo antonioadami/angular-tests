@@ -27,7 +27,7 @@ describe('CepService', () => {
     httpMock.verify();
   });
 
-  it(`should get address as an Observable`, () => {
+  it(`Deve buscar um cep e retornar o endereço`, () => {
     const cep = '37540-000';
     const responseAddress = {
       cep: '37540000',
@@ -44,34 +44,39 @@ describe('CepService', () => {
         },
       },
     };
+    const url = `${environment.brasilApiUrl}/cep/v2/37540-000`;
 
     cepService.getAddressByCep(cep).subscribe(address => {
-      expect(address).toEqual(jasmine.objectContaining(responseAddress));
+      expect(address).toEqual(responseAddress);
     });
 
-    const req = httpMock.expectOne(
-      `${environment.brasilApiUrl}/cep/v2/37540-000`,
-    );
+    const req = httpMock.expectOne(url);
+
     expect(req.request.method).toBe('GET');
 
     req.flush(responseAddress);
+
+    httpMock.verify();
   });
 
-  it('can test for 404 error', () => {
-    const emsg = 'deliberate 404 error';
-    const emptyCep = '';
-    const sendError = { status: 404, statusText: 'Not Found' };
+  it('Deve buscar um cep inválido e retornar erro 404', () => {
+    const invalidCep = '11111111';
+    const errorOpts = {
+      status: 404,
+      statusText: 'Ok',
+    };
 
-    cepService.getAddressByCep(emptyCep).subscribe(
-      () => fail('should have failed with the 404 error'),
+    cepService.getAddressByCep(invalidCep).subscribe(
+      () => fail('Deveria retornar um erro 404'),
       (error: HttpErrorResponse) => {
         expect(error.status).toEqual(404, 'status');
-        expect(error.error).toEqual(emsg, 'message');
       },
     );
 
-    const req = httpMock.expectOne(`${environment.brasilApiUrl}/cep/v2/`);
+    const req = httpMock.expectOne(
+      `${environment.brasilApiUrl}/cep/v2/11111111`,
+    );
 
-    req.flush(emsg, sendError);
+    req.flush({}, errorOpts);
   });
 });

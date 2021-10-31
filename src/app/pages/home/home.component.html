@@ -1,14 +1,15 @@
 <div class="main-container">
   <div class="card-container">
-    <p>Insira seu CEP</p>
+    <p>{{title}}</p>
 
     <div class="cep-container">
       <mat-form-field appearance="outline">
         <mat-label>CEP</mat-label>
-        <input matInput placeholder="Placeholder" [(ngModel)]="cep">
+        <input matInput placeholder="Placeholder" [(ngModel)]="cep" id="cep-input">
       </mat-form-field>
       <button mat-raised-button color="primary" class="buscar-button" (click)="buscar()">Buscar</button>
     </div>
+    <p ng-if="erro" style="color: red">{{erro}}</p>
 
     <table mat-table [dataSource]="addresses" class="mat-elevation-z8 address-table" >
 
