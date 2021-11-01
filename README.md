@@ -74,10 +74,6 @@ $ yarn test
 
 Para realizar o linting no projeto e manter um padrão na escrita do código, foi utilizado o Eslint e Prettier
 
-```
-$ git clone https://github.com/antonioadami/angular-tests.git
-```
-
 ### 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
