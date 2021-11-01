@@ -4,35 +4,45 @@
 </h1>
 
 <p>
-  O projeto foi gerado utilizando [Angular CLI](https://github.com/angular/angular-cli) versão 12.2.6.
-</p>
-
-
-
-<p>
   <a href="https://www.npmjs.com/@angular/core">
-    <img src="https://img.shields.io/npm/v/@angular/core.svg?logo=npm&logoColor=fff&label=NPM+package&color=limegreen" alt="Angular on npm" />
+    <img src="https://img.shields.io/npm/v/@angular/core.svg?logo=angular&logoColor=red&label=Angular+version&color=red" alt="Angular on npm" />
+  </a>&nbsp;
+  <a href="https://www.npmjs.com/typescript">
+    <img src="https://img.shields.io/npm/v/typescript.svg?logo=typescript&logoColor=blue&label=Typescript+version&color=blue" alt="Typescript on npm" />
   </a>&nbsp;
   <img src="https://img.shields.io/github/license/antonioadami/angular-tests" alt="License" />
 </p>
 
-## Este projeto foi desenvolvido com o objetivo de aprender a realizar testes em aplicações Angular
 
-<h4 align="center"> 
+<h3 align="center"> 
 	🚧  Em construção...  🚧
-</h4>
+</h3>
+
+<br />
+
+<p>
+  Este projeto foi desenvolvido com o objetivo de aprender a realizar testes em aplicações Angular.
+  <br />
+  O projeto foi gerado utilizando [Angular CLI](https://github.com/angular/angular-cli) versão 12.2.6.
+</p>
 
 ### Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e [Typescript](https://www.typescriptlang.org). 
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
+### 🚀 Começando
+
+Para obter uma cópia do projeto a fim de executá-lo ou editá-lo de sua máquina, clone o repositório em uma pasta na sua máquina:
+
+```
+$ git clone https://github.com/antonioadami/angular-tests.git
+```
 
 ### 🎲 Rodando o Front-End
 
 ```bash
-# Clone este repositório
-$ git clone <https://github.com/antonioadami/angular-tests>
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd angular-tests
@@ -50,6 +60,24 @@ $ yarn dev
 # Você poderá acessar a página no link http://localhost:4200
 ```
 
+### ⚙️ Executando os testes
+O Angular utiliza Jasmine e Karma para desenvolver e executar os testes.
+Para executar os testes de unidade, basta executar o seguinte comando: 
+
+```
+$ npm test
+ou
+$ yarn test
+```
+
+### 📕 Linting
+
+Para realizar o linting no projeto e manter um padrão na escrita do código, foi utilizado o Eslint e Prettier
+
+```
+$ git clone https://github.com/antonioadami/angular-tests.git
+```
+
 ### 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
@@ -57,3 +85,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Node.js](https://nodejs.org/en/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Angular](https://angular.io)
+- [Jasmine](https://jasmine.github.io)
+- [Karma](https://karma-runner.github.io)
+- [Eslint](https://eslint.org)
+- [Prettier](https://prettier.io)
