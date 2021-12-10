@@ -28,16 +28,25 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 30px;
+}
+
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-flex {
+  width: 250px;
 }
 
 ::ng-deep .mat-form-field-wrapper{
   padding: 0;
 }
 
+::ng-deep th.mat-header-cell, td.mat-cell, td.mat-footer-cell {
+  font-size: 17px;
+}
+
 .buscar-button {
   margin-top: 2rem;
   width: 250px;
-  height: 40px;
+  height: 60px;
   margin-left: 2rem;
 }
 
