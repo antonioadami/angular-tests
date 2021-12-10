@@ -2,15 +2,25 @@
   height: 100vh;
   width: 100vw;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: table-cell;
 
   background-color: lightgray;
 }
 
+.title {
+  text-align: center;
+  color: #3f51b5;
+  margin: 3rem 0;
+}
+
+
 .card-container {
-  width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15%;
+
+  width: 70%;
 
   background-color: white;
   border-radius: 10px;
