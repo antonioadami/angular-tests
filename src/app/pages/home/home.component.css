@@ -24,6 +24,7 @@
 }
 
 .cep-container {
+  width: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,7 +35,9 @@
 }
 
 .buscar-button {
-  height: 60px;
+  margin-top: 2rem;
+  width: 250px;
+  height: 40px;
   margin-left: 2rem;
 }
 
