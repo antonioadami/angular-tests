@@ -22,8 +22,9 @@
   Este projeto foi desenvolvido com o objetivo de aprender a realizar testes em aplicações Angular.
   Os testes desenvolvidos foram os de Unidade e Mock.
   <br />
-  O projeto foi gerado utilizando [Angular CLI](https://github.com/angular/angular-cli) versão 12.2.6.
 </p>
+O projeto foi gerado utilizando [Angular CLI](https://github.com/angular/angular-cli) versão 12.2.6.
+
 
 ### Pré-requisitos
 
@@ -52,7 +53,7 @@ Para cada um dessas ferramentas, siga os seguintes passos:
     Download: [Download](https://www.typescriptlang.org/download)<br />
     Acesse o link de downloads.<br />
     Faça o download e instale.<br />
-
+<br />
 
 
 ### 🚀 Começando
