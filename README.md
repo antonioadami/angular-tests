@@ -28,17 +28,32 @@
 ### Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-GIT, [Node.js](https://nodejs.org/en/) e [Typescript](https://www.typescriptlang.org).
+GIT, Node.js e Typescript.
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 Para cada um dessas ferramentas, siga os seguintes passos:
 
- - Git.
+- Git.
 
 Documentação: [Git](https://git-scm.com)
-  
-```
-$ git clone https://github.com/antonioadami/angular-tests.git
-```
+Download: [Download](https://git-scm.com/download/win)
+Acessando o link, estará na página da documentação do GIT, onde será necessário
+acessar a aba de downloads.
+Faça o download e instale.
+
+- Node.js.
+
+Documentação: [Node.js](https://nodejs.org/en/)
+Download: [Download](https://nodejs.org/en/download/)
+Acesse o link de downloads.
+Faça o download e instale.
+
+- Typescript.
+
+Documentação: [Typescript](https://www.typescriptlang.org)
+Download: [Download](https://www.typescriptlang.org/download)
+Acesse o link de downloads.
+Faça o download e instale.
+
 
 
 ### 🚀 Começando
