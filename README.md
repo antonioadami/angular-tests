@@ -23,6 +23,7 @@
   Os testes desenvolvidos foram os de Unidade e Mock.
   <br />
 </p>
+<br />
 
 ### Pré-requisitos
 
@@ -30,8 +31,8 @@
 O projeto foi gerado utilizando [Angular CLI](https://github.com/angular/angular-cli) versão 12.2.6.
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-GIT, Node.js e Typescript.
-Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+GIT, Node.js, Typescript e o Yarn(Opcional).
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)<br />
 Para cada um dessas ferramentas, siga os seguintes passos:
 
 - Git.
@@ -54,6 +55,18 @@ Para cada um dessas ferramentas, siga os seguintes passos:
     Download: [Download](https://www.typescriptlang.org/download)<br />
     Acesse o link de downloads.<br />
     Faça o download e instale.<br />
+    
+ - Yarn (Opcional).
+
+    Documentação: [Yarn](https://classic.yarnpkg.com/en/)<br />
+    Acesse o link para verificar toda a documentação sobre o Yarn.<br />
+    Para instalar o Yarn, será necessário já estar com o Node instalado.<br />
+    Com isso já feito, abra um terminal e rode o seguinte comando:
+    ```
+    $ npm install --global yarn
+    ```
+    
+    
 <br />
 
 
