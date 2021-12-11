@@ -23,10 +23,11 @@
   Os testes desenvolvidos foram os de Unidade e Mock.
   <br />
 </p>
-O projeto foi gerado utilizando [Angular CLI](https://github.com/angular/angular-cli) versão 12.2.6.
-
 
 ### Pré-requisitos
+
+
+O projeto foi gerado utilizando [Angular CLI](https://github.com/angular/angular-cli) versão 12.2.6.
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 GIT, Node.js e Typescript.
