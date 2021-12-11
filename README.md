@@ -32,7 +32,7 @@ O projeto foi gerado utilizando [Angular CLI](https://github.com/angular/angular
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 GIT, Node.js, Typescript e o Yarn(Opcional).
-Além disto é bom ter um editor para trabalhar com o código, um bom exemplo seria o [VSCode](https://code.visualstudio.com/).<br />
+Além disto, é bom ter um editor para trabalhar com o código, um bom exemplo seria o [VSCode](https://code.visualstudio.com/).<br />
 Para cada um dessas ferramentas, siga os seguintes passos:
 
 - Git.
