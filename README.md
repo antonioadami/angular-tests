@@ -28,8 +28,18 @@
 ### Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e [Typescript](https://www.typescriptlang.org).
+GIT, [Node.js](https://nodejs.org/en/) e [Typescript](https://www.typescriptlang.org).
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+Para cada um dessas ferramentas, siga os seguintes passos:
+
+ - Git.
+
+Documentação: [Git](https://git-scm.com)
+  
+```
+$ git clone https://github.com/antonioadami/angular-tests.git
+```
+
 
 ### 🚀 Começando
 
