@@ -34,25 +34,24 @@ Para cada um dessas ferramentas, siga os seguintes passos:
 
 - Git.
 
-Documentação: [Git](https://git-scm.com)
-Download: [Download](https://git-scm.com/download/win)
-Acessando o link, estará na página da documentação do GIT, onde será necessário
-acessar a aba de downloads.
-Faça o download e instale.
+    Documentação: [Git](https://git-scm.com).<br />
+    Download: [Download](https://git-scm.com/download/win).<br />
+    Acesse o link de downloads.<br />
+    Faça o download e instale.<br />
 
 - Node.js.
 
-Documentação: [Node.js](https://nodejs.org/en/)
-Download: [Download](https://nodejs.org/en/download/)
-Acesse o link de downloads.
-Faça o download e instale.
+    Documentação: [Node.js](https://nodejs.org/en/)<br />
+    Download: [Download](https://nodejs.org/en/download/)<br />
+    Acesse o link de downloads.<br />
+    Faça o download e instale.<br />
 
 - Typescript.
 
-Documentação: [Typescript](https://www.typescriptlang.org)
-Download: [Download](https://www.typescriptlang.org/download)
-Acesse o link de downloads.
-Faça o download e instale.
+    Documentação: [Typescript](https://www.typescriptlang.org)<br />
+    Download: [Download](https://www.typescriptlang.org/download)<br />
+    Acesse o link de downloads.<br />
+    Faça o download e instale.<br />
 
 
 
