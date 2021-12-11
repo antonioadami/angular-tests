@@ -1,4 +1,3 @@
-
 <h1> 
 	AngularTests
 </h1>
@@ -13,7 +12,6 @@
   <img src="https://img.shields.io/github/license/antonioadami/angular-tests" alt="License" />
 </p>
 
-
 <h3 align="center"> 
 	🚧  Em construção...  🚧
 </h3>
@@ -22,6 +20,7 @@
 
 <p>
   Este projeto foi desenvolvido com o objetivo de aprender a realizar testes em aplicações Angular.
+  Os testes desenvolvidos foram os de Unidade e Mock
   <br />
   O projeto foi gerado utilizando [Angular CLI](https://github.com/angular/angular-cli) versão 12.2.6.
 </p>
@@ -29,7 +28,7 @@
 ### Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e [Typescript](https://www.typescriptlang.org). 
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e [Typescript](https://www.typescriptlang.org).
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
 ### 🚀 Começando
@@ -61,8 +60,9 @@ $ yarn dev
 ```
 
 ### ⚙️ Executando os testes
+
 O Angular utiliza Jasmine e Karma para desenvolver e executar os testes.
-Para executar os testes de unidade, basta executar o seguinte comando: 
+Para executar os testes de unidade, basta executar o seguinte comando:
 
 ```
 $ npm test
