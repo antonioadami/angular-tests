@@ -13,14 +13,14 @@
 </p>
 
 <h3 align="center"> 
-	🚧  Em construção...  🚧
+  Passo a Passo para instalar e executar os testes.
 </h3>
 
 <br />
 
 <p>
   Este projeto foi desenvolvido com o objetivo de aprender a realizar testes em aplicações Angular.
-  Os testes desenvolvidos foram os de Unidade e Mock
+  Os testes desenvolvidos foram os de Unidade e Mock.
   <br />
   O projeto foi gerado utilizando [Angular CLI](https://github.com/angular/angular-cli) versão 12.2.6.
 </p>
