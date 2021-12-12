@@ -12,6 +12,7 @@
   </a>&nbsp;
   <img src="https://img.shields.io/github/license/antonioadami/angular-tests" alt="License" />
 </p>
+[![.github/workflows/AngularCI.yml](https://github.com/antonioadami/angular-tests/actions/workflows/AngularCI.yml/badge.svg)](https://github.com/antonioadami/angular-tests/actions/workflows/AngularCI.yml)
 
 
 <h3 align="center"> 
