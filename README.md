@@ -2,6 +2,7 @@
 	AngularTests
 </h1>
 
+[![Teste de CI](https://github.com/antonioadami/angular-tests/actions/workflows/AngularCI.yml/badge.svg)](https://github.com/antonioadami/angular-tests/actions/workflows/AngularCI.yml)
 <p>
   <a href="https://www.npmjs.com/@angular/core">
     <img src="https://img.shields.io/npm/v/@angular/core.svg?logo=angular&logoColor=red&label=Angular+version&color=red" alt="Angular on npm" />
@@ -11,7 +12,7 @@
   </a>&nbsp;
   <img src="https://img.shields.io/github/license/antonioadami/angular-tests" alt="License" />
 </p>
-[![NodeJS with Grunt](https://github.com/antonioadami/angular-tests/actions/workflows/AngularCI.yml/badge.svg)](https://github.com/antonioadami/angular-tests/actions/workflows/AngularCI.yml)
+
 
 <h3 align="center"> 
   Passo a Passo para instalar e executar os testes.
